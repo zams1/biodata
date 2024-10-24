@@ -1,0 +1,50 @@
+/* Reset Margin dan Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #007bff, #4CAF50);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* Section Titles */
+h3 {
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* List Groups */
+.list-group-item {
+    border: none;
+    background-color: #f8f9fa;
+}
+
+/* Footer */
+footer {
+    background: #343a40;
+    color: #ced4da;
+}
